@@ -3,10 +3,13 @@ package com.oops.overload;
 public class ThisDemo {
 
 	public ThisDemo() {
+		
+		this("Priya");
 		System.out.println("Hello");
 	}
 	
 	public ThisDemo(String name) {
+		this(10);
 		System.out.println("welcome :"+name);
 	
 	}
